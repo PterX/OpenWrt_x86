@@ -27,7 +27,7 @@
  endef
  TARGET_DEVICES += cmiot_ax18
  
-+define Device/qihoo_v6
++define Device/qihoo_360v6
 +	$(call Device/FitImage)
 +	$(call Device/UbiFit)
 +	DEVICE_VENDOR := Qihoo 360
@@ -38,7 +38,7 @@
 +	DEVICE_PACKAGES := ipq-wifi-qihoo_360v6
 +	SOC := ipq6000
 +endef
-+TARGET_DEVICES += qihoo_v6
++TARGET_DEVICES += qihoo_360v6
 +
 +define Device/zn_m2
 +	$(call Device/FitImage)
